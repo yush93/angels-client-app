@@ -1,0 +1,46 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    grid-gap: 15px;
+    grid-auto-rows: 100%;
+    /* grid-auto-rows: minmax(auto, auto); */
+}
+
+.wrapper.small {
+    grid-auto-rows: 100%;
+}
+
+.card {
+    box-shadow: 0 0 8px 2px gray;
+    background-color: #45aaf2;
+    cursor: pointer;
+    overflow-y: auto;
+    color: black;
+}
+
+.card h5 {
+    font-style: bold;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body {
+    padding: 10px;
+    height: 100%;
+}
+
+.card:hover{
+    background-color: #2d98da;
+}
+
+.btn-holder {
+    position: relative;
+}
+
+.btn-holder button {
+    position: absolute;
+    top: 50%;
+}

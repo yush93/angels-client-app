@@ -1,0 +1,8 @@
+export const FETCH_PROJECTS = 'FETCH_PROJECTS';
+export const NEW_PROJECT = "NEW_PROJECT"
+
+export const FETCH_CONTENTS = 'FETCH_CONTENTS';
+export const NEW_CONTENT = 'NEW CONTENT';
+export const FETCH_CONTENT = 'FETCH_CONTENT';
+export const EDIT_CONTENT = 'EDIT_CONTENT';
+export const DELETE_CONTENT = 'DELETE_CONTENT';
